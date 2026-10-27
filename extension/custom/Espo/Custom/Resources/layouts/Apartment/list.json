@@ -1,0 +1,17 @@
+[
+  {
+    "name": "name"
+  },
+  {
+    "name": "status"
+  },
+  {
+    "name": "building"
+  },
+  {
+    "name": "floor"
+  },
+  {
+    "name": "price"
+  }
+]

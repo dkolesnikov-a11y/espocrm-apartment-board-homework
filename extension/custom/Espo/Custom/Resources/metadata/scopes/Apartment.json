@@ -1,0 +1,9 @@
+{
+  "entity": true,
+  "object": true,
+  "acl": true,
+  "tab": true,
+  "importable": true,
+  "customizable": true,
+  "type": "Base"
+}

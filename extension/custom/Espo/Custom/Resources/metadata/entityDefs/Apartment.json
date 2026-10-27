@@ -1,0 +1,79 @@
+{
+  "fields": {
+    "name": {
+      "type": "varchar",
+      "required": true
+    },
+    "building": {
+      "type": "varchar",
+      "required": true
+    },
+    "entrance": {
+      "type": "varchar",
+      "required": true
+    },
+    "floor": {
+      "type": "int",
+      "required": true
+    },
+    "number": {
+      "type": "varchar",
+      "required": true
+    },
+    "rooms": {
+      "type": "int",
+      "min": 0
+    },
+    "area": {
+      "type": "float",
+      "min": 0
+    },
+    "price": {
+      "type": "float",
+      "min": 0
+    },
+    "status": {
+      "type": "enum",
+      "options": [
+        "Available",
+        "Reserved",
+        "Sold"
+      ],
+      "default": "Available",
+      "style": {
+        "Available": "success",
+        "Reserved": "warning",
+        "Sold": "danger"
+      }
+    },
+    "buyer": {
+      "type": "link"
+    },
+    "description": {
+      "type": "text"
+    },
+    "createdAt": {
+      "type": "datetime",
+      "readOnly": true
+    },
+    "modifiedAt": {
+      "type": "datetime",
+      "readOnly": true
+    }
+  },
+  "links": {
+    "buyer": {
+      "type": "belongsTo",
+      "entity": "Contact"
+    }
+  },
+  "collection": {
+    "orderBy": "floor",
+    "order": "desc",
+    "textFilterFields": [
+      "name",
+      "building",
+      "number"
+    ]
+  }
+}

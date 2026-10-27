@@ -1,0 +1,52 @@
+[
+  {
+    "rows": [
+      [
+        {
+          "name": "name"
+        },
+        {
+          "name": "status"
+        }
+      ],
+      [
+        {
+          "name": "building"
+        },
+        {
+          "name": "entrance"
+        }
+      ],
+      [
+        {
+          "name": "floor"
+        },
+        {
+          "name": "number"
+        }
+      ],
+      [
+        {
+          "name": "rooms"
+        },
+        {
+          "name": "area"
+        }
+      ],
+      [
+        {
+          "name": "price"
+        },
+        {
+          "name": "buyer"
+        }
+      ],
+      [
+        {
+          "name": "description",
+          "fullWidth": true
+        }
+      ]
+    ]
+  }
+]

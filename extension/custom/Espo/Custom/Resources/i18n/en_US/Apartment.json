@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "name": "Название",
+    "building": "Дом / корпус",
+    "entrance": "Подъезд / секция",
+    "floor": "Этаж",
+    "number": "Номер квартиры",
+    "rooms": "Комнат",
+    "area": "Площадь, м²",
+    "price": "Цена, ₽",
+    "status": "Статус",
+    "buyer": "Покупатель",
+    "description": "Примечание"
+  },
+  "labels": {
+    "Create Apartment": "Добавить квартиру"
+  },
+  "options": {
+    "status": {
+      "Available": "Свободна",
+      "Reserved": "Бронь",
+      "Sold": "Продана"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "controller": "custom:controllers/apartment",
+  "views": {
+    "list": "custom:views/apartment/board"
+  }
+}
